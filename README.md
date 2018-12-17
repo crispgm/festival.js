@@ -6,11 +6,19 @@ Super simple festival detector. 😊
 
 `isHoliday()`
 
-`is(holidayName)`
+Return: `true` or `false`
 
 `getHoliday()`
 
+Return: name of holiday. e.g. `Christmas`
+
 `getEmoji()`
+
+Return: emoji of holiday. e.g. `🎄`
+
+`is(holidayName)`
+
+Return: `true` or `false`
 
 ## License
 

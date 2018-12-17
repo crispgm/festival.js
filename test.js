@@ -1,6 +1,7 @@
 import test from 'ava';
 
-test('sync', t => {
-	const fest = require('.');
-	t.true(fest.length() > 1);
+import festival from '.';
+
+test('is christmas', t => {
+	t.true(festival.is('Christmas'));
 });

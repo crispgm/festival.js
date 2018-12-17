@@ -16,8 +16,19 @@ const festivals = [
 ];
 
 const festival = {
-	length: () => {
-		return festivals.length;
+	is: name => {
+		for (const item of festivals) {
+			if (item.name === name) {
+				return true;
+			}
+		}
+		return false;
+	},
+	isHoliday: () => {
+	},
+	getHoliday: () => {
+	},
+	getEmoji: () => {
 	}
 };
 
