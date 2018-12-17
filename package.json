@@ -1,0 +1,23 @@
+{
+  "name": "festival.js",
+  "version": "1.0.0",
+  "description": "Super simple festival detector",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crispgm/festival.js.git"
+  },
+  "author": "David Zhang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/crispgm/festival.js/issues"
+  },
+  "homepage": "https://github.com/crispgm/festival.js#readme",
+  "devDependencies": {
+    "ava": "^1.0.1",
+    "xo": "^0.23.0"
+  }
+}
