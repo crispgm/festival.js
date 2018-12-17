@@ -1,5 +1,7 @@
 # festival.js
 
+[![Build Status](https://travis-ci.org/crispgm/festival.js.svg?branch=master)](https://travis-ci.org/crispgm/festival.js)
+
 Super simple festival detector. 😊
 
 ## Usage
@@ -16,7 +18,7 @@ Return: name of holiday. e.g. `Christmas`
 
 Return: emoji of holiday. e.g. `🎄`
 
-`is(holidayName)`
+`is(holidayName: string)`
 
 Return: `true` or `false`
 
