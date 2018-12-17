@@ -15,7 +15,9 @@ const defaultFestivals = [
 	},
 	{
 		name: 'Halloween',
-		emoji: '🎃'
+		emoji: '🎃',
+		month: 10,
+		day: 31
 	}
 ];
 
