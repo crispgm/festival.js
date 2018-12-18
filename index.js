@@ -8,16 +8,22 @@ const defaultFestivals = [
 		day: 1
 	},
 	{
-		name: 'Christmas',
-		emoji: '🎄',
-		month: 12,
-		day: 25
+		name: 'Valentine\'s Day',
+		emoji: '❤️',
+		month: 2,
+		day: 14
 	},
 	{
 		name: 'Halloween',
 		emoji: '🎃',
 		month: 10,
 		day: 31
+	},
+	{
+		name: 'Christmas',
+		emoji: '🎄',
+		month: 12,
+		day: 25
 	}
 ];
 
