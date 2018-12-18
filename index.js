@@ -55,26 +55,17 @@ const festival = {
 		return false;
 	},
 	isHoliday: hs => {
-		let holidaySet = defaultFestivals;
-		if (hs) {
-			holidaySet = hs;
-		}
+		const holidaySet = hs || defaultFestivals;
 		const date = getDate();
 		return checkHoliday(holidaySet, date, () => true) || false;
 	},
 	getHoliday: hs => {
-		let holidaySet = defaultFestivals;
-		if (hs) {
-			holidaySet = hs;
-		}
+		const holidaySet = hs || defaultFestivals;
 		const date = getDate();
 		return checkHoliday(holidaySet, date, item => item.name) || '';
 	},
 	getEmoji: hs => {
-		let holidaySet = defaultFestivals;
-		if (hs) {
-			holidaySet = hs;
-		}
+		const holidaySet = hs || defaultFestivals;
 		const date = getDate();
 		return checkHoliday(holidaySet, date, item => item.emoji) || '';
 	}
